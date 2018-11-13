@@ -14,8 +14,12 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 
+hr.big {
+  width: 200px;
+}
+
 hr {
-  max-width: 50px;
+  width: 50px;
   border-width: 3px;
   border-color: #42c0fb;
 }
@@ -209,6 +213,14 @@ img::-moz-selection {
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
     color: #42c0fb;
   }
+}
+
+h3.space {
+  padding-top: 20px;
+}
+
+strong.font {
+   font-size: 4rem;
 }
 
 header.masthead {
