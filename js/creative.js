@@ -26,6 +26,11 @@
     offset: 57
   });
 
+
+  $(document).ready(function(){
+    $('[data-toggle="popover"]').popover();   
+});
+
   // Collapse Navbar
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {

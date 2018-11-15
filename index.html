@@ -52,11 +52,17 @@
                 <a class="dropdown-item" href="pricing.html">Pricing</a>
                 <a class="dropdown-item" href="aboutus.html">About Us</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="cancel.html">Cancel Service</a>
               </div>
             </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Reviews</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Reviews
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item js-scroll-trigger" href="#portfolio">Reviews</a>
+                <a class="dropdown-item js-scroll-trigger" href="faq.html">FAQ</a>
+              </div>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -274,28 +280,29 @@
     <section class=" text-white" id="cbackground">
       <div class="container text-center">
         <h2 class="mb-4">WE HAVE CLIENTS FROM ALL OVER THE WORLD!</h2>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-2">
-                <img src="https://qph.fs.quoracdn.net/main-qimg-21a7d486ab9fb02b520aa238fcb91494" class="rounded float-right countries" alt="...">
-            </div>
-            <div class="col-lg-2">
-                <img src="https://www.usnews.com/static-atlas/assets/img/news/best-countries/flags-svg/ITA.svg" class="rounded float-right countries" alt="...">
-            </div>
-            <div class="col-lg-2">
-                <img src="https://flagpolefarm.com/wp-content/uploads/2018/01/france-flag-2.jpg" class="rounded float-right countries" alt="...">
-            </div>
-            <div class="col-lg-2">
-                <img src="https://www.worldatlas.com/r/w728-h425-c728x425/upload/ad/a6/68/ar-flag-min.jpg" class="rounded float-right countries" alt="...">
-            </div>
-            <div class="col-lg-2">
-                <img src="https://fotw.info/images/k/kr!mir.gif" class="rounded float-right countries" alt="...">
-            </div>
-            <div class="col-lg-2">
-                <img src="https://cdn.britannica.com/97/897-004-6990FA31.jpg" class="rounded float-right countries" alt="...">
-            </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2 text-center">
+              <img src="https://qph.fs.quoracdn.net/main-qimg-21a7d486ab9fb02b520aa238fcb91494" class="rounded countries" alt="...">
+          </div>
+          <div class="col-lg-2 text-center">
+              <img src="https://www.usnews.com/static-atlas/assets/img/news/best-countries/flags-svg/ITA.svg" class="rounded countries" alt="...">
+          </div>
+          <div class="col-lg-2 text-center">
+              <img src="https://flagpolefarm.com/wp-content/uploads/2018/01/france-flag-2.jpg" class="rounded countries" alt="...">
+          </div>
+          <div class="col-lg-2 text-center">
+              <img src="https://www.worldatlas.com/r/w728-h425-c728x425/upload/ad/a6/68/ar-flag-min.jpg" class="rounded countries" alt="...">
+          </div>
+          <div class="col-lg-2 text-center">
+              <img src="https://fotw.info/images/k/kr!mir.gif" class="rounded countries" alt="...">
+          </div>
+          <div class="col-lg-2 text-center">
+              <img src="https://cdn.britannica.com/97/897-004-6990FA31.jpg" class="rounded countries" alt="...">
           </div>
         </div>
+      </div>
         <br>
       </div>
     </section>
@@ -324,6 +331,24 @@
           </div>
         </div>
       </div>
+
+      <div class="container pt-3 border border-dark">
+        <div class="text-center">
+          <h5 class="font-weight-bold">Join our mailing list</h5>
+          <h5 class="font-weight-bold">Never miss an update</h5>
+        </div>
+        <form>
+          <div class="form-group">
+            <h4>
+              <label for="exampleInputEmail1">Email address</label>
+            </h4>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <button type="submit" class="btn btn-primary mb-3">Subscribe Now</button>
+        </form>
+      </div>
+      
     </section>
 
     <!-- Bootstrap core JavaScript -->
